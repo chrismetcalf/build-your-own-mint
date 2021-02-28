@@ -14,5 +14,6 @@ module.exports = function(vars) {
   const serlized = Object.keys(current)
     .map(key => `${key}=${current[key]}`)
     .join(`\n`)
+  console.log(serlized)
   fs.writeFileSync(envPath, serlized)
 }

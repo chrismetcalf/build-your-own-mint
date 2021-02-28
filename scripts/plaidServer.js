@@ -30,7 +30,7 @@ app.get('/', (req, res, next) => {
   })
 })
 
-const APP_PORT = 8080
+const APP_PORT = 8089
 let PUBLIC_TOKEN = null
 let ITEM_ID = null
 
